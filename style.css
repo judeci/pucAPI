@@ -1,0 +1,165 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* /////////////////////////////////////// */
+/* result page div */
+
+#student-output {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+
+  font-size: 1.2rem;
+  border: 2px solid black;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(212, 254, 255)
+  );
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 23rem;
+  min-height: 11rem;
+  font-weight: 500;
+}
+
+#student-output2 {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+}
+
+#student-output p {
+  /* margin: 0 !important; */
+  margin-bottom: 0.1rem !important;
+  padding: 0;
+}
+
+.separate-output {
+  border-top: 1px solid black;
+  padding-top: 1rem !important;
+}
+
+#hidden-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* /////////////////////////////////////// */
+/* main form CID entering page */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#student-output-msg {
+  margin-top: 3rem;
+}
+
+.form-div {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  /* background-color: #f5fbff; */
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(212, 254, 255)
+  );
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 23rem;
+  height: 11rem;
+
+  font-weight: 500;
+  user-select: none;
+}
+
+.form-id {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 0 0 1px #eee;
+  color: black;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+.form-id:hover,
+.form-id:focus,
+.form-id:active {
+  border: 1px solid black;
+  box-shadow: inset 0 0 0 1px #000000;
+}
+
+/* /////////////////////////////////////// */
+/* form search button CID */
+
+#search-btn {
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  color: black;
+}
+
+/* /////////////////////////////////////// */
+/* back button to look up a different CID */
+
+#back-btn-inner {
+  background-color: transparent;
+  border: 2px solid #ccc;
+  color: #ccc;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.7rem;
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+#back-btn-inner2 {
+  cursor: pointer;
+  margin-top: 2rem;
+  width: fit-content;
+}
+
+#back-btn-inner:hover {
+  color: black !important;
+  border: 2px solid #000 !important;
+}
+
+.hidden {
+  display: none !important;
+}
