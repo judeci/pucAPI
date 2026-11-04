@@ -1,6 +1,5 @@
 /* ============================================================
-   SERVER — runs in Node, started with: node index.js
-   No document, no window, no DOM. That lives in public/script.js
+   SERVER 
    ============================================================ */
 require("dotenv").config();
 
